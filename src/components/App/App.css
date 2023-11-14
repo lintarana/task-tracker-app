@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 10% auto;
+}
+
+h1 {
+  color: #ff4c68;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+
+.task-form input[type='text'] {
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 2px solid #ff4c68;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  background-color: #ff4c68;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px auto;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.task.completed {
+  opacity: 0.6;
+}
+
+.task-title {
+  font-size: 2rem;
+  color: #333;
+ 
+}
+
+.task-timer {
+  font-size: 1.4rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.task-buttons button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  background-color: #ff4c68;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
